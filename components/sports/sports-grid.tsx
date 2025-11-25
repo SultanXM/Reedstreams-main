@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-const STREAMED_API_BASE = process.env.NEXT_PUBLIC_STREAMED_API_BASE_URL || 'https://api.reedstreams.com'
+const STREAMED_API_BASE = process.env.NEXT_PUBLIC_STREAMED_API_BASE_URL || 'https://streamed.pk/api'
 
 // Sport icon and name mappings
 const sportIcons: Record<string, string> = {
